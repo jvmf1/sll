@@ -2,6 +2,8 @@ CC=cc
 NAME=sll
 LIBDESTDIR=/usr/local/lib
 INCLUDEDESTDIR=/usr/local/include
+CFLAGS=-ffunction-sections -fdata-sections
+
 
 all: lib$(NAME).a
 
